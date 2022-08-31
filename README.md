@@ -16,7 +16,7 @@ Ao final do projeto é entregue uma lista de palavras e suas combinações, tant
 
 Para que a solução fosse entregue, foram utilizadas algumas tecnologias na Análise de Dados e Natural Language Processing (NLP), tais como **Pandas, Matplotlib, Seaborn, NLTK, TextBlob, Pattern, WordCloud, Scrapy**.
 
-Antes de iniciar toda a análise, a proposta do projeto foi escolhida e assim se buscou extrair esses dados do TripAdvisor com o framewordk **Scrapy**, gerando uma *spider* que passou por todas as páginas dos comentários relacionado ao Mosteiro dos Jerônimos e armazenou tudo em um arquivo .csv.
+Antes de iniciar toda a análise, a proposta do projeto foi escolhida e assim se buscou extrair esses dados do TripAdvisor com o framework **Scrapy**, gerando uma *spider* que passou por todas as páginas dos comentários relacionado ao Mosteiro dos Jerônimos e armazenou tudo em um arquivo .csv.
 
 Para as etapas de Análise e Manipulação de dados foi utilizado o **Pandas**. Durante o cerne do projeto, foram utilizadas as bibliotecas **NLTK, TextBlob, Pattern**, responsáveis por pré-processarem o texto, analisar os sentimentos contidos nas sentenças e o entendimento, a partir dos bigrams e trigrams, um pouco mais do contexto nos quais as principais palavras estão inseridas. Para melhor representar esses conjuntos de palavras, de maneira mais visual, foram gerados Word Clouds com a bibloteca **WordCloud**. Por fim, mas não menos importante, foram criados gráficos utilizando **Matplotlib e Seaborn**. 
 
